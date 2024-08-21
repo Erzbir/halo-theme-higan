@@ -900,13 +900,13 @@ body {
 
 @media (max-width: 767px) {
   .max-width {
-      max-width: 100%;
+    max-width: 100%;
   }
 }
 
 @media (min-width: 1199px) and (max-width: 1536px) {
   .max-width {
-      max-width: 56rem;
+    max-width: 56rem;
   }
 }
 @media (min-width: 1537px) and (max-width: 2000px) {
@@ -1682,7 +1682,7 @@ article .content blockquote {
   padding: 0.5em 0.625rem;
   background: inherit;
   color: var(--color-quote);
-  quotes: "\201C""\201D""\2018""\2019";
+  quotes: "\201C" "\201D" "\2018" "\2019";
   font-weight: bold;
 }
 
@@ -1859,7 +1859,7 @@ article .content .caption {
 }
 
 #footer .copyright::before {
-  content: '\A';
+  content: "\A";
   white-space: pre;
 }
 
@@ -2327,48 +2327,48 @@ article .content .caption {
   background-position: center;
 }
 
-.author .profile-wrap {
-  margin: 0 auto;
-  padding: 1.25rem 0;
-  color: var(--color-text);
-  backdrop-filter: blur(1px);
+.profile-container {
+  padding-bottom: 30px;
+  background: #fff center no-repeat;
+  background-size: 100% auto;
 }
-
-.author .profile-content {
+.profile-wrap {
+  width: 400px;
+  padding-left: 10px;
+  padding-top: 10px;
+  margin: 0 auto;
+}
+.profile-content {
   text-align: center;
   margin: 0 auto;
+  width: 200px;
   overflow: hidden;
 }
-
-.author .profile-avatar {
-  width: 5rem;
-  height: 5rem;
+.profile-header-img {
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
-  border: 0.1rem solid #eae9e7;
+  border: 3px solid #eee;
   margin: 0 auto;
 }
-
-.author .profile-nickname-container {
+.profile-nickname-container {
   margin: 0 auto;
   text-align: center;
   font-size: 1rem;
 }
-
-.author .profile-nickname {
+.profile-nickname {
   padding: 0px;
   margin: 0;
   text-align: center;
-  font-weight: 600;
+  font-weight: normal;
+  margin-top: 10px;
 }
-
-.author .profile-bio {
+.profile-bio {
   padding: 0px;
   margin: 0px;
   text-align: center;
   font-weight: normal;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-  color: var(--color-accent-2);
+  font-size: 12px;
 }
 
 .color-accent-1 {
