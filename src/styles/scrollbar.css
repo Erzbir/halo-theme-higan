@@ -1,6 +1,10 @@
 * {
   scrollbar-width: thin;
-  scrollbar-color: #86898C #c3c4c5;
+  scrollbar-color: #86898C var(--hljs-theme-background, #282c34);
+}
+
+.highlight-wrap code::-webkit-scrollbar-track {
+  background-color: var(--hljs-theme-background) !important;
 }
 
 *::-webkit-scrollbar {
@@ -12,7 +16,7 @@
 
 /* 修改滚动条滑块的样式 */
 *::-webkit-scrollbar-thumb {
-  background: #c3c4c5;
+  background: var(--color-scrollbar-thumb);
   border-radius: 10px;
 }
 
@@ -24,7 +28,7 @@
 /* 修改滚动条轨道的样式 */
 *::-webkit-scrollbar-track {
   background-color: none;
-  
+
 }
 
 *::-webkit-scrollbar-button {
