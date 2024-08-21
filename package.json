@@ -9,28 +9,29 @@
     "halo",
     "guqing",
     "guching",
+    "erzbir",
     "halo-theme",
     "halo-theme-higan"
   ],
-  "homepage": "https://github.com/guqing/halo-theme-higan#readme",
+  "homepage": "https://github.com/erzbir/halo-theme-higan#readme",
   "bugs": {
-    "url": "https://github.com/guqing/halo-theme-higan/issues"
+    "url": "https://github.com/erzbir/halo-theme-higan/issues"
   },
   "author": {
-    "name": "guqing",
-    "url": "https://github.com/guqing",
-    "email": "i@guqing.email"
+    "name": "erzbir",
+    "url": "https://github.com/erzbir",
+    "email": "erzbir@email.com"
   },
   "maintainers": [
     {
-      "name": "guqing",
-      "url": "https://github.com/guqing",
-      "email": "i@guqing.email"
+      "name": "erzbir",
+      "url": "https://github.com/erzbir",
+      "email": "erzbir@email.com"
     }
   ],
   "license": "GPL-3.0",
   "repository": {
-    "url": "https://github.com/guqing/halo-theme-higan",
+    "url": "https://github.com/erzbir/halo-theme-higan",
     "type": "git"
   },
   "devDependencies": {
@@ -58,5 +59,6 @@
     "rehype-slug": "^5.1.0",
     "rehype-stringify": "^9.0.3",
     "unified": "^10.1.2"
-  }
+  },
+  "packageManager": "pnpm@7.28.0+sha1.48be3292711ad554fe944f6caaf9b0f5477524fe"
 }
