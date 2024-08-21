@@ -8,8 +8,8 @@ spec:
     name: erzbir
     website: https://erzbir.com
   description: 上游为 https://github.com/guqing/halo-theme-higan
-  logo: /themes/guqing-higan/assets/images/logo.png
-  website: https://erzbir.xyz
+  logo: /themes/erzbir-higan/assets/images/logo.png
+  website: https://erzbir.com
   repo: https://github.com/erzbir/halo-theme-higan
   settingName: erzbir-higan-setting
   configMapName: erzbir-higan-configmap
