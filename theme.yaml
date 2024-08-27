@@ -13,7 +13,7 @@ spec:
   repo: https://github.com/erzbir/halo-theme-higan
   settingName: erzbir-higan-setting
   configMapName: erzbir-higan-configmap
-  version: 3.0.1
+  version: 3.0.2
   requires: ">=2.1.0"
   license:
     - name: "MIT"
