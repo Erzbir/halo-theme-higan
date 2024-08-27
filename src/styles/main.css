@@ -1839,10 +1839,9 @@ article .content .caption {
   text-align: center;
   font-size: var(--text-xs);
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
-  align-items: end;
   gap: 1.25rem;
   margin-bottom: 1.25rem;
   margin-top: 1.25rem;
@@ -2325,6 +2324,50 @@ article .content .caption {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.author .profile-wrap {
+  margin: 0 auto;
+  padding: 1.25rem 0;
+  color: var(--color-text);
+  backdrop-filter: blur(1px);
+}
+
+.author .profile-content {
+  text-align: center;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.author .profile-avatar {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  border: 0.1rem solid #eae9e7;
+  margin: 0 auto;
+}
+
+.author .profile-nickname-container {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.author .profile-nickname {
+  padding: 0px;
+  margin: 0;
+  text-align: center;
+  font-weight: 600;
+}
+
+.author .profile-bio {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: var(--color-accent-2);
 }
 
 .profile-container {
