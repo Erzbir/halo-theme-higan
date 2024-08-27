@@ -17,7 +17,7 @@
 
 <th:block th:fragment="simple-post-list(posts)">
   <section id="writing" class="flex-auto flex flex-col">
-    <h2 class="h1"><a th:href="@{/archives}">Writing</a></h2>
+    <h2 class="h1"><a th:href="@{/archives}">Articles</a></h2>
     <ul class="post-list flex-auto">
       <th:block th:each="item : ${posts.items}">
         <li class="post-item">
